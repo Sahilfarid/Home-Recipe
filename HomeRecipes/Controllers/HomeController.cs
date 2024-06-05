@@ -6,8 +6,10 @@ namespace HomeRecipes.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.Recipe = "Our Famous House Made Recipe";
             return View();
         }
+
         public IActionResult about()
         {
             return View();
