@@ -8,5 +8,13 @@ namespace HomeRecipes.Controllers
         {
             return View();
         }
+        public IActionResult about()
+        {
+            return View();
+        }
+        public IActionResult services()
+        {
+            return View();
+        }
     }
 }
