@@ -7,6 +7,7 @@ namespace HomeRecipes.Controllers
         public IActionResult Index()
         {
             ViewBag.Recipe = "Our Famous House Made Recipe";
+            ViewBag.dis = "Experience the joy of home-cooked meals with  Home Recipe, where every recipe is a blend of tradition and taste";
             return View();
         }
 
