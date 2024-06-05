@@ -13,10 +13,13 @@ namespace HomeRecipes.Controllers
 
         public IActionResult about()
         {
+            TempData["mess"] = "welcome services page this text fetch from another object using Tempdata";
+            TempData.Keep();
             return View();
         }
         public IActionResult services()
         {
+            ViewData["ch"] = "welcome to the Services";
             return View();
         }
     }
